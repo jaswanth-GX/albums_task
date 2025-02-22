@@ -1,4 +1,3 @@
-// lib/data/providers/api_provider.dart
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 

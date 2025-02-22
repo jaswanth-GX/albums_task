@@ -1,4 +1,3 @@
-// lib/data/models/album_model.dart
 class Album {
   final int userId;
   final int id;
@@ -22,7 +21,7 @@ class Album {
     };
   }
 
-  // For convenience when inserting to DB
+
   static Album fromMap(Map<String, dynamic> map) {
     return Album(
       userId: map['userId'],

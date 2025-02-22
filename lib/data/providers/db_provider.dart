@@ -1,4 +1,3 @@
-// lib/data/providers/db_provider.dart
 import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';
 
@@ -21,7 +20,6 @@ class DBProvider {
       path,
       version: 1,
       onCreate: (db, version) async {
-        // Create tables
         await db.execute('''
           CREATE TABLE Albums(
             userId INTEGER,

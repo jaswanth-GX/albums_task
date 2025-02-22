@@ -1,4 +1,3 @@
-// lib/data/models/photo_model.dart
 class Photo {
   final int albumId;
   final int id;
